@@ -11,10 +11,10 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 -- Create the database if it doesn't exist
-CREATE DATABASE IF NOT EXISTS test;
+CREATE DATABASE IF NOT EXISTS mydb;
 
 -- Use the test database
-USE test;
+USE mydb;
 
 -- Table structure for table `books`
 CREATE TABLE IF NOT EXISTS `books` (
